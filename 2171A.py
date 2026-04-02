@@ -1,3 +1,5 @@
+#correct soln
+
 t = int(input(""))
 for _ in range(t):
     count = 0
