@@ -1,3 +1,5 @@
+#correct soln
+
 g, c, l = map(int, input("").split())
 scores = list((g, c, l))
 scores.sort()
