@@ -1,9 +1,6 @@
 t = int(input(""))
 for _ in range(t):
     a = list(map(int, input("").split()))
-    am = max(a)
-    sum = 0
-    for i in range(len(a)):
-        sum += a[i]
-    sum -= 2*am
-    print(-1*sum)
+    max1 = max(a)
+    result = (sum(a) -2*max1)*-1
+    print(result) 
